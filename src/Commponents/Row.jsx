@@ -15,13 +15,13 @@ const Row = ({title,url,rowID}) => {
    },[url])
 
    const sliderLeft=()=>{
-    var slider=document.getElementById('slider'+rowID);
+    var slider=document.getElementById('slider'+ rowID);
     slider.scrollLeft = slider.scrollLeft-500;
    }
    
    const sliderRight=()=>{
-    var slider=document.getElementById('slider'+rowID)
-    slider.scrollLeft = slider.scrollLeft + 500;
+    var slider=document.getElementById('slider'+ rowID)
+    slider.scrollLeft = slider.scrollLeft +500;
    }
    
    console.log(movies)

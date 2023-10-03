@@ -4,7 +4,7 @@ import { UserAuth } from '../context/AuthContext';
 import { db } from '../firebase';
 import { updateDoc, doc, onSnapshot } from 'firebase/firestore';
 import { AiOutlineClose } from 'react-icons/ai';
-import { Link } from 'react-router-dom';
+
 
 const SavedShows = () => {
   const [movies, setMovies] = useState([]);
